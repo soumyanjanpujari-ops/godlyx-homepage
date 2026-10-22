@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 535 104" role="img" aria-labelledby="t d">
+  <title id="t">GODLYX</title><desc id="d">Godlyx wordmark, with a shaded G icon and premium lettering.</desc>
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#E4FFF5"/><stop offset=".4" stop-color="#7EE5DA"/><stop offset=".74" stop-color="#6CAEDB"/><stop offset="1" stop-color="#8884EA"/></linearGradient>
+    <linearGradient id="text" x1="0" y1="0" x2=".1" y2="1"><stop stop-color="#FFFFFF"/><stop offset="1" stop-color="#C5CDDF"/></linearGradient>
+  </defs>
+  <rect x="2" y="8" width="86" height="86" rx="24" fill="#0B1724" stroke="#4B7483" stroke-opacity=".7"/>
+  <path d="M69 37C63 29 57 26 46 26C32 26 22 38 22 51C22 67 32 77 47 77C62 77 70 68 70 55H48" fill="none" stroke="url(#edge)" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="112" y="75" fill="url(#text)" font-size="70" font-family="Arial,Helvetica,sans-serif" font-weight="800" letter-spacing="5">GODLYX</text>
+</svg>

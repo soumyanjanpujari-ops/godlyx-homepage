@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title desc">
+  <title id="title">Godlyx</title>
+  <desc id="desc">A premium sculptural G with iridescent teal and violet 3D shading.</desc>
+  <defs>
+    <linearGradient id="back" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#15263A"/><stop offset=".55" stop-color="#0C1725"/><stop offset="1" stop-color="#060D18"/></linearGradient>
+    <linearGradient id="edge" x1=".06" y1=".08" x2=".92" y2=".95"><stop stop-color="#E9FFF9"/><stop offset=".24" stop-color="#8DFFE4"/><stop offset=".58" stop-color="#4ABDD9"/><stop offset=".85" stop-color="#8781EB"/><stop offset="1" stop-color="#5364BA"/></linearGradient>
+    <linearGradient id="facet" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0C4A5E"/><stop offset="1" stop-color="#191D52"/></linearGradient>
+    <radialGradient id="gloss" cx=".28" cy=".13" r=".92"><stop stop-color="#A5E9FF" stop-opacity=".13"/><stop offset="1" stop-color="#03101E" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect x="3" y="3" width="154" height="154" rx="42" fill="url(#back)" stroke="#76D8D9" stroke-opacity=".33" stroke-width="1.6"/>
+  <rect x="10" y="10" width="140" height="140" rx="37" fill="url(#gloss)"/>
+  <!-- Offset deep facet gives the glyph a cut-metal, dimensional edge. -->
+  <path d="M116 58C107 43 95 36 79 36C56 36 39 54 39 80C39 107 56 125 81 125C105 125 119 110 120 88H82" fill="none" stroke="url(#facet)" stroke-width="28" stroke-linecap="round" stroke-linejoin="round" transform="translate(3 5)" opacity=".85"/>
+  <path d="M116 58C107 43 95 36 79 36C56 36 39 54 39 80C39 107 56 125 81 125C105 125 119 110 120 88H82" fill="none" stroke="url(#edge)" stroke-width="23" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M108 49C98 39 90 36 79 36C58 36 43 52 39 72" fill="none" stroke="#F6FFFE" stroke-opacity=".59" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M57 115C67 123 74 125 81 125C103 125 117 110 119 92" fill="none" stroke="#E7FFFF" stroke-opacity=".25" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="121" cy="87" r="3" fill="#D6FFFB" opacity=".75"/>
+</svg>

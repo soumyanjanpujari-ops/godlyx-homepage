@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Godlyx favicon">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#DFFFF5"/><stop offset=".48" stop-color="#6AE0D5"/><stop offset="1" stop-color="#807CEA"/></linearGradient></defs>
+<rect width="64" height="64" rx="16" fill="#0B1724"/>
+<path d="M49 23C45 17 39 14 32 14C20 14 12 22 12 32C12 44 20 51 33 51C43 51 50 43 50 34H34" fill="none" stroke="url(#g)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

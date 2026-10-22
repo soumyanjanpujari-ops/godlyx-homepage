@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+ <title id="title">Godlyx — Intelligence meets imagination</title>
+ <desc id="desc">Dark cinematic social sharing artwork for Godlyx, an independent technology studio.</desc>
+ <defs>
+  <radialGradient id="g"><stop stop-color="#284C65"/><stop offset="1" stop-color="#090E18"/></radialGradient>
+  <linearGradient id="b" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#D6FFF5"/><stop offset=".52" stop-color="#6CCFDB"/><stop offset="1" stop-color="#8584EF"/></linearGradient>
+ </defs>
+ <rect width="1200" height="630" fill="#080D16"/>
+ <circle cx="924" cy="310" r="450" fill="url(#g)" opacity=".86"/>
+ <circle cx="965" cy="310" r="200" fill="none" stroke="#4CD7D5" stroke-opacity=".24" stroke-width="2"/>
+ <circle cx="965" cy="310" r="155" fill="none" stroke="#9FA9FF" stroke-opacity=".3" stroke-width="2"/>
+ <path d="M1069 224C1039 181 1006 172 966 172C889 172 843 225 843 309C843 388 889 448 968 448C1041 448 1080 396 1080 332H963" fill="none" stroke="#0A2432" stroke-width="73" stroke-linecap="round" stroke-linejoin="round" transform="translate(9 9)" opacity=".6"/>
+ <path d="M1069 224C1039 181 1006 172 966 172C889 172 843 225 843 309C843 388 889 448 968 448C1041 448 1080 396 1080 332H963" fill="none" stroke="url(#b)" stroke-width="65" stroke-linecap="round" stroke-linejoin="round"/>
+ <text x="75" y="241" fill="#F1F5FF" font-family="Arial,sans-serif" font-size="99" font-weight="800" letter-spacing="7">GODLYX</text>
+ <text x="81" y="323" fill="#D2DEEA" font-family="Arial,sans-serif" font-size="32">Intelligence meets imagination.</text>
+ <text x="81" y="494" fill="#81CBD0" font-family="Arial,sans-serif" font-size="21" letter-spacing="5">EDUCATION  /  AI  /  CREATOR TOOLS</text>
+</svg>
