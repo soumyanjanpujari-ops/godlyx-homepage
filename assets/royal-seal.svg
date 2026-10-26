@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <defs>
+    <!-- Wax Base Gradient with 3D spherical shading -->
+    <radialGradient id="waxBase" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#C5283D"/>
+      <stop offset="40%" stop-color="#8E1624"/>
+      <stop offset="75%" stop-color="#540812"/>
+      <stop offset="100%" stop-color="#320409"/>
+    </radialGradient>
+    
+    <!-- Gold Rim & Emblem Gradient -->
+    <linearGradient id="sealGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF9E6"/>
+      <stop offset="25%" stop-color="#F5D061"/>
+      <stop offset="55%" stop-color="#D4AF37"/>
+      <stop offset="80%" stop-color="#8B6508"/>
+      <stop offset="100%" stop-color="#FFE082"/>
+    </linearGradient>
+
+    <!-- Deep Drop Shadow & Gloss -->
+    <filter id="sealDrop" x="-20%" y="-20%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#000" flood-opacity="0.6"/>
+    </filter>
+    <filter id="emboss" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="1" dy="2" stdDeviation="1" flood-color="#000" flood-opacity="0.8"/>
+      <feDropShadow dx="-1" dy="-1" stdDeviation="1" flood-color="#FFF9E6" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Hanging Silk Ribbons in Background -->
+  <path d="M78 150 L65 195 L85 188 L100 196 L95 150 Z" fill="#7A101C" opacity="0.9"/>
+  <path d="M122 150 L135 195 L115 188 L100 196 L105 150 Z" fill="#580811" opacity="0.9"/>
+  <path d="M78 150 L65 195 L75 190 Z" fill="url(#sealGold)" opacity="0.4"/>
+  <path d="M122 150 L135 195 L125 190 Z" fill="url(#sealGold)" opacity="0.4"/>
+
+  <!-- Imperfect pressed wax seal outer rim (authentic stamp edge) -->
+  <path d="M100 8 C148 7 192 48 190 98 C188 148 152 188 102 190 C52 192 10 152 10 102 C10 52 50 9 100 8 Z" fill="url(#waxBase)" filter="url(#sealDrop)"/>
+  
+  <!-- Outer pressed wax ripple ring -->
+  <circle cx="100" cy="100" r="76" stroke="#48050D" stroke-width="6" opacity="0.6"/>
+  <circle cx="100" cy="100" r="74" stroke="url(#sealGold)" stroke-width="1.8" opacity="0.85"/>
+  <circle cx="100" cy="100" r="68" stroke="url(#sealGold)" stroke-width="1" stroke-dasharray="3 3" opacity="0.7"/>
+
+  <!-- Inset Bevel Ring -->
+  <circle cx="100" cy="100" r="62" fill="#75121E" stroke="#3D050B" stroke-width="3"/>
+
+  <!-- Tiny Auspicious Beads on Rim -->
+  <circle cx="100" cy="36" r="2" fill="url(#sealGold)"/>
+  <circle cx="145" cy="55" r="2" fill="url(#sealGold)"/>
+  <circle cx="164" cy="100" r="2" fill="url(#sealGold)"/>
+  <circle cx="145" cy="145" r="2" fill="url(#sealGold)"/>
+  <circle cx="100" cy="164" r="2" fill="url(#sealGold)"/>
+  <circle cx="55" cy="145" r="2" fill="url(#sealGold)"/>
+  <circle cx="36" cy="100" r="2" fill="url(#sealGold)"/>
+  <circle cx="55" cy="55" r="2" fill="url(#sealGold)"/>
+
+  <!-- Sculptural Godlyx Monogram Emblem 'G' -->
+  <g filter="url(#emboss)" transform="translate(100, 100)">
+    <path d="M22 -14 C17 -26 7 -32 -6 -32 C-26 -32 -40 -16 -40 6 C-40 28 -25 43 -4 43 C16 43 28 30 29 12 L-4 12" 
+          fill="none" stroke="url(#sealGold)" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="29" cy="12" r="3" fill="#FFF8DC"/>
+  </g>
+
+  <!-- Specular highlight on wax dome -->
+  <ellipse cx="78" cy="46" rx="36" ry="16" fill="#FFF" opacity="0.14" transform="rotate(-25 78 46)"/>
+</svg>

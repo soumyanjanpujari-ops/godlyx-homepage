@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" fill="none">
+  <defs>
+    <linearGradient id="archGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF9E0"/>
+      <stop offset="25%" stop-color="#F5D061"/>
+      <stop offset="60%" stop-color="#D4AF37"/>
+      <stop offset="85%" stop-color="#8B6914"/>
+      <stop offset="100%" stop-color="#FFDF79"/>
+    </linearGradient>
+    <linearGradient id="pillarGold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8B6914"/>
+      <stop offset="40%" stop-color="#F5D061"/>
+      <stop offset="70%" stop-color="#FFE082"/>
+      <stop offset="100%" stop-color="#704F09"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Top Finial / Kalash -->
+  <path d="M200 12 C196 22 190 28 200 36 C210 28 204 22 200 12 Z" fill="url(#archGold)"/>
+  <circle cx="200" cy="8" r="4" fill="url(#archGold)"/>
+  <circle cx="200" cy="38" r="3" fill="url(#archGold)"/>
+
+  <!-- Outer Grand Cusped Arch (5-Foil Royal Silhouette) -->
+  <path d="M30 480 V240 
+           C30 180 60 145 95 145 
+           C110 145 125 155 140 140 
+           C155 125 170 100 200 45 
+           C230 100 245 125 260 140 
+           C275 155 290 145 305 145 
+           C340 145 370 180 370 240 
+           V480" 
+        stroke="url(#archGold)" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Inner Concentric Cusped Arch -->
+  <path d="M48 480 V245 
+           C48 195 72 165 102 165 
+           C118 165 132 172 145 160 
+           C160 144 175 116 200 70 
+           C225 116 240 144 255 160 
+           C268 172 282 165 298 165 
+           C328 165 352 195 352 245 
+           V480" 
+        stroke="url(#archGold)" stroke-width="1.8" stroke-dasharray="4 4" opacity="0.85"/>
+
+  <!-- Innermost Fine Border -->
+  <path d="M60 480 V250 
+           C60 205 82 178 108 178 
+           C122 178 135 185 148 172 
+           C162 158 178 128 200 88 
+           C222 128 238 158 252 172 
+           C265 185 278 178 292 178 
+           C318 178 340 205 340 250 
+           V480" 
+        stroke="url(#archGold)" stroke-width="1" opacity="0.6"/>
+
+  <!-- Left Ornamental Pillar Base & Capital -->
+  <rect x="22" y="240" width="16" height="240" fill="url(#pillarGold)" rx="2" opacity="0.85"/>
+  <rect x="18" y="232" width="24" height="8" fill="url(#archGold)" rx="2"/>
+  <rect x="18" y="472" width="24" height="8" fill="url(#archGold)" rx="2"/>
+
+  <!-- Right Ornamental Pillar Base & Capital -->
+  <rect x="362" y="240" width="16" height="240" fill="url(#pillarGold)" rx="2" opacity="0.85"/>
+  <rect x="358" y="232" width="24" height="8" fill="url(#archGold)" rx="2"/>
+  <rect x="358" y="472" width="24" height="8" fill="url(#archGold)" rx="2"/>
+
+  <!-- Spandrel Floral Filigree (Left & Right of Apex) -->
+  <path d="M95 145 C95 115 130 90 160 85" stroke="url(#archGold)" stroke-width="1.5" fill="none" opacity="0.7"/>
+  <circle cx="120" cy="115" r="4" fill="url(#archGold)"/>
+  <path d="M305 145 C305 115 270 90 240 85" stroke="url(#archGold)" stroke-width="1.5" fill="none" opacity="0.7"/>
+  <circle cx="280" cy="115" r="4" fill="url(#archGold)"/>
+</svg>
